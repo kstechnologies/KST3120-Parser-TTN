@@ -50,7 +50,7 @@
 function decodeUplink(input) {
 
     /*
-    The following examples show how to parse the limi switch uplink.
+    The following examples show how to parse the limit switch uplink.
     KST uses concatenated Key-Length-Value decoding for all of its
     LoRaWAN Uplinks. Following are the keys for the KST3120:
     0x0078 > Battery

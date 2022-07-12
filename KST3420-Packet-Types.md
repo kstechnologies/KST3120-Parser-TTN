@@ -49,7 +49,7 @@ Example: `0100011E` = Set Uplink Interval to 30mins
 
 ## Error States
 
-| Example    | Key    | Length | Value | Notes                             |
-|------------|--------|--------|-------|-----------------------------------|
-| 0xFFFF0100 | 0xFFFF | 0x01   | 0x00  | No Error                          |
-| 0xFFFF0104 | 0xFFFF | 0x01   | 0x04  | Unknown Error; Cannot Read Switch |
+| Example      | Key      | Length | Value  | Notes                             |
+|--------------|----------|--------|--------|-----------------------------------|
+| `0xFFFF0100` | `0xFFFF` | `0x01` | `0x00` | No Error                          |
+| `0xFFFF0104` | `0xFFFF` | `0x01` | `0x04` | Unknown Error; Cannot Read Switch |
